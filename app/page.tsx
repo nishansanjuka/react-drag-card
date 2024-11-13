@@ -50,10 +50,6 @@ export default function ReactDragCardPage() {
         title={"Google — 25 Years in Search: The Most Searched"}
         width="min-w-96"
         height="auto"
-        defaultPosition={{
-          x: window.innerWidth / 2 - 192,
-          y: window.innerHeight / 2 - 108,
-        }}
         fullScreenWidth="60%"
         fullScreenHeight="auto"
         onFullScreenChange={setIsFullScreen}
